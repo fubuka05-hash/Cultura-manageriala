@@ -98,7 +98,6 @@ function loadQuestion() {
 
 // --- ELLENŐRZÉS (GOMB KATTINTÁS) ---
 function checkAnswer(button, index, correctIndex) {
-    global correctCount, totalAsked // ⬅️ Ezt a sort a Pythonból felejtetted bent, JS-ben nincs rá szükség! Töröljük!
     if (answered) return;
     answered = true;
     
@@ -163,3 +162,4 @@ async function initializeApp() {
 
 // --- ALKALMAZÁS INDÍTÁSA ---
 initializeApp();
+
