@@ -7,7 +7,7 @@ const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
 
-let questions = []; // Az adatok innen töltődnek be aszinkron
+let questions = []; 
 let currentQuestions = [];
 let currentIndex = 0;
 let answered = false;
@@ -44,6 +44,9 @@ function renderTemaList() {
 
 // --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS ---
 function selectTema(fejezet) {
+    // FONTOS: Visszaállítjuk a Next gombot, ha a felhasználó többször futtat egy fejezetet
+    nextBtn.disabled = true; 
+    
     currentQuestions = questions.filter(q => q.fejezet_cim === fejezet);
     shuffleArray(currentQuestions);
     currentIndex = 0;
@@ -72,12 +75,17 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
+    // Feltételezzük, hogy a JSON kulcsok q.id, q.kerdes stb. (kisbetűs)
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
         const btn = document.createElement("button");
         btn.textContent = answer;
-        btn.onclick = () => checkAnswer(btn, index, q.helyes);
+        
+        // FONTOS: Töröljük a korábbi inline stílusokat (ha lennének)
+        btn.removeAttribute('style'); 
+
+        btn.onclick = () => checkAnswer(btn, index, q.helyes); 
         answersDiv.appendChild(btn);
     });
 }
@@ -91,6 +99,11 @@ function checkAnswer(button, index, correctIndex) {
 
     buttons.forEach((btn, i) => {
         btn.disabled = true;
+        
+        // Kényszerítsük az alapértelmezett háttérszín törlését 
+        // (bár a CSS !important-nak ezt kezelnie kellene)
+        btn.removeAttribute('style'); 
+        
         if (i === correctIndex) {
             btn.classList.add("correct");
             btn.textContent += " ✔";
@@ -121,8 +134,7 @@ async function initializeApp() {
         const response = await fetch('kerdesek.json');
         
         if (!response.ok) {
-            // Ezt a hibát kapod, ha helyi fájlként futtatod a böngészőben!
-            throw new Error(`HTTP hiba: ${response.status}. A fájl betöltése csak webkiszolgálón lehetséges.`);
+            throw new Error(`HTTP hiba: ${response.status}. A fájl betöltése sikertelen.`);
         }
         
         questions = await response.json(); 
@@ -132,7 +144,7 @@ async function initializeApp() {
     } catch (error) {
         console.error("Hiba a kérdések betöltésekor:", error);
         temeDiv.innerHTML = `Eroare la încărcarea datelor: ${error.message}<br>
-                             Pentru testare locală, utilizați un server local.`;
+                             Pentru testare, töltsd fel a GitHub Pages-re.`;
     }
 }
 
