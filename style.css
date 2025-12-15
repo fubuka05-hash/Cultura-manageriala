@@ -22,5 +22,16 @@ button {
     word-wrap: break-word; /* Biztosítja a sortörést */
     text-align: left; /* A válaszok balra legyenek igazítva, ha betörnek */
 }
+.correct {
+    /* Kritikus: A zöld háttér beállítása */
+    background-color: lightgreen !important; 
+    color: black !important; /* Szövegszín megtartása olvashatóan */
+}
+
+.wrong {
+    /* Kritikus: A piros háttér beállítása */
+    background-color: lightcoral !important; 
+    color: black !important; /* Szövegszín megtartása olvashatóan */
+}
 
 /* ... (a többi stílusod) ... */
