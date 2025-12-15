@@ -1,40 +1,42 @@
-/* style.css - Végső, Központosító Mobil Optimalizálás */
+/* style.css - Végső Optimalizálás S25 Pluszhoz és más nagy mobilokhoz */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Teljes margó eltávolítása */
+    margin: 0; 
     
-    /* Központosításhoz (Flexible Box Layout) */
+    /* Vízszintes középre igazítás */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Vízszintes középre igazítás */
+    align-items: center; 
     
-    font-size: 20px; /* Alap betűméret még nagyobb a kényelemért */
-    background-color: #f8f8f8; /* Világosszürke háttér az app-érzetért */
+    font-size: 18px; /* Kicsit visszafogjuk az alap betűméretet az olvashatóság érdekében */
+    background-color: #f8f8f8; 
 }
 
-/* Fő tartalom konténer, ami korlátozza a szélességet (szükséges, hogy középre kerüljön) */
+/* Fő tartalom konténer (ez a kulcs a szélességhez) */
 #main-container { 
-    width: 95%; /* Kitölti a mobil 95%-át */
-    max-width: 600px; /* Maximális szélesség nagyobb képernyőkön */
+    /* 🟢 A KORÁBBI 600PX KORLÁTOT ELTÁVOLÍTJUK VAGY NÖVELJÜK */
+    width: 95%; 
+    max-width: 800px; /* Növeltük a max. szélességet asztali gépen, de mobilon nem okoz gondot */
+    
     padding: 10px;
     box-sizing: border-box; 
-    background-color: white; /* Fehér háttér a tartalomnak */
+    background-color: white; 
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Enyhe árnyék, hogy kiemelkedjen */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
     margin-top: 20px;
 }
 
 h1 {
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     margin: 10px 0 25px 0;
     font-weight: bold;
 }
 
 h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -43,16 +45,16 @@ button {
     display: block;
     width: 100%; 
     
-    /* Nagyobb padding a tapinthatóságért */
-    padding: 20px 15px; 
-    margin: 12px 0; 
+    /* 🟢 GOMB MAGASSÁGÁNAK NÖVELÉSE (TAPINTHATÓSÁG) */
+    padding: 22px 15px; /* Még nagyobb padding, hogy magasabbak legyenek a gombok */
+    margin: 10px 0; 
     
-    font-size: 20px; 
+    font-size: 18px; /* Betűméret a gombokon is 18px */
     font-weight: 500;
     
     border-radius: 12px; 
     
-    /* 🟢 GOMB SZÖVEGÉNEK KÖZÉPRE IGAZÍTÁSA */
+    /* 🟢 GOMB SZÖVEGÉNEK KÖZÉPRE IGAZÍTÁSA (így jobban néz ki) */
     text-align: center; 
     
     white-space: normal;
@@ -62,18 +64,18 @@ button {
     background-color: #ffffff; 
 }
 
-/* Kiemeljük a Következő/Vissza gombokat, és középre helyezzük őket a konténerben */
+/* Kiemeljük a Következő/Vissza gombokat */
 #question-screen {
-    text-align: center; /* Konténerben lévő gombok középre igazítása */
+    text-align: center;
 }
 
 #nextBtn, #backBtn {
     width: auto; 
     padding: 15px 30px;
-    margin: 25px 5px 0 5px; /* Margó a két gomb között */
+    margin: 25px 5px 0 5px; 
     font-size: 18px;
     font-weight: bold;
-    background-color: #007bff; /* Kék/Alap szín a gomboknak */
+    background-color: #007bff; 
     color: white; 
     border: none;
     display: inline-block;
@@ -81,11 +83,11 @@ button {
 
 /* Színjelzések */
 .correct {
-    background-color: #4CAF50 !important; /* Mélyebb zöld */
+    background-color: #4CAF50 !important; 
     color: white !important;
 }
 
 .wrong {
-    background-color: #f44336 !important; /* Mélyebb piros */
+    background-color: #f44336 !important; 
     color: white !important;
 }
