@@ -1,37 +1,78 @@
+/* style.css - Optimalizált mobilnézet */
+
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
-    max-width: 100%; /* Fontos a mobil elrendezéshez */
+    /* 1. Alapértelmezett margó minimalizálása mobilon */
+    margin: 10px; 
+    
+    /* 2. Általános betűméret növelése az olvashatóság érdekében */
+    font-size: 18px; 
+    
+    /* A fő konténer rugalmassága */
+    max-width: 100%; 
     box-sizing: border-box; 
+    padding: 0; /* Ne legyen felesleges padding */
 }
 
 h1 {
     text-align: center;
+    /* Cím nagyobb betűmérettel, hogy jobban kiemelkedjen */
+    font-size: 24px; 
+    margin-bottom: 20px;
+}
+
+/* Kiemelt stílus a tartalom doboznak (temeDiv, questionScreen) */
+#teme, #question-screen {
+    padding: 0 5px; /* Kicsit balról/jobbról eltoljuk a szöveget, de nem túl sokat */
 }
 
 /* Minden gomb (téma választó és válasz gomb) stílusa */
 button {
     display: block;
     width: 100%; /* Kitölti a rendelkezésre álló szélességet */
-    padding: 10px;
-    margin: 5px 0;
-    font-size: 16px;
     
-    /* A hosszú szöveg sortörése */
-    white-space: normal; 
-    word-wrap: break-word; /* Biztosítja a sortörést */
-    text-align: left; /* A válaszok balra legyenek igazítva, ha betörnek */
+    /* 3. Gombok magasságának és paddingjének növelése (könnyebb rákattintani) */
+    padding: 15px; 
+    margin: 8px 0; /* Több hely a gombok között */
+    
+    /* 4. Betűméret növelése a gombokon is */
+    font-size: 18px; 
+    
+    border-radius: 8px; /* Lekerekített sarkok a modern megjelenésért */
+    text-align: left; 
+    white-space: normal;
+    word-wrap: break-word; 
+    cursor: pointer;
+    transition: background-color 0.2s; /* Színváltás animáció */
 }
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Színjelzések (már működik) */
 .correct {
-    /* Kritikus: A zöld háttér beállítása */
     background-color: lightgreen !important; 
-    color: black !important; /* Szövegszín megtartása olvashatóan */
+    color: black !important;
 }
 
 .wrong {
-    /* Kritikus: A piros háttér beállítása */
     background-color: lightcoral !important; 
-    color: black !important; /* Szövegszín megtartása olvashatóan */
+    color: black !important;
 }
 
-/* ... (a többi stílusod) ... */
+/* Vissza gomb stílusa a kvíz képernyőn */
+#backBtn {
+    width: auto; 
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ddd;
+    font-size: 16px;
+    display: inline-block;
+}
+
+/* A fejezetlista (temeDiv) gombjai kicsit kiemelkednek */
+.tema-button {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+}
