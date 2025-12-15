@@ -1,0 +1,1674 @@
+[
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "1",
+        "kerdes": "Când s-a înființat domeniul de pregătire superioară care va deveni, după mai multe metamorfoze în denumire și conținut, inginerie economică (inginerie și management)?",
+        "valaszok": [
+            "1990;",
+            "1994;",
+            "1996."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "2",
+        "kerdes": "Ingineria economică industrială este o specializare inclusă în domeniul:",
+        "valaszok": [
+            "inginerie industrială;",
+            "inginerie și management;",
+            "management."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "3",
+        "kerdes": "Care dintre domeniile cu caracter ingineresc enumerate mai jos se găsește în cele mai multe universități din România:",
+        "valaszok": [
+            "ingineria sistemelor, calculatoarelor și tehnologia informaților;",
+            "inginerie electronică și telecomunicații;",
+            "inginerie și management."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "4",
+        "kerdes": "Care este diferența dintre Consorțiul de inginerie economică din România (CIER) și Asociația managerilor și inginerilor economiști din România (AMIER)?",
+        "valaszok": [
+            "sunt două organizații distincte cu personalități juridice distincte;",
+            "AMIER are personalitate juridică și include CIER;",
+            "CIER are personalitate juridică și include AMIER."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "5",
+        "kerdes": "Când a apărut primul număr al Revistei de Management și Inginerie Economică?",
+        "valaszok": [
+            "în 1990 la înființarea specializării de inginerie economică;",
+            "în 1996 la înființarea Consorțiului de Inginerie Economică din România;",
+            "în 2002 la înființarea Asociației Managerilor și Inginerilor Economiști în România."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "6",
+        "kerdes": "Dictonul „sapere aude” din emblema specializării de inginerie economică reprezintă expresia în limba latină a îndemnului:",
+        "valaszok": [
+            "„îndrăznește să cunoști\";",
+            "„cunoaște-te pe tine însăți\";",
+            "„îndrăznește și vei câștiga\"."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "7",
+        "kerdes": "Care dintre domeniile cu caracter ingineresc enumerate mai jos se găsește în cele mai multe universități din România?",
+        "valaszok": [
+            "inginerie industrială;",
+            "inginerie și management;",
+            "ingineria mediului."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "8",
+        "kerdes": "Fondatorii ingineriei economice din România, de după 1989, au fost patru universități. Care sunt acestea?",
+        "valaszok": [
+            "Universitatea „Lucian Blaga” din Sibiu, Universitatea Tehnică din Iași, Universitatea „Politehnica” din București, Universitatea Tehnică din Cluj-Napoca;",
+            "Universitatea „Transilvania” din Brașov, Universitatea ,Politehnica” din București, Universitatea Tehnică din Cluj-Napoca, Universitatea „Politehnica” din Timișoara;",
+            "Universitățile Tehnice din București, Cluj-Napoca, Iași și Timișoara."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "9",
+        "kerdes": "Care dintre următoarele formulări descriu caracteristicile specializărilor de inginerie economică:",
+        "valaszok": [
+            "amândouă;",
+            "numai 1 ;",
+            "numai 2."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "La început de drum",
+        "id": "10",
+        "kerdes": "Specializarea „inginerie economică industrială” face parte din domeniul de licentă:",
+        "valaszok": [
+            "inginerie industrială;",
+            "inginerie și management;",
+            "management."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "11",
+        "kerdes": "Apreciați că managerul și antreprenorul reprezintă același lucru?",
+        "valaszok": [
+            "Da, în toate cazurile;",
+            "nu, niciodată;",
+            "uneori cele două concepte se suprapun."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "12",
+        "kerdes": "De ce se spune că managerul este un om singur?",
+        "valaszok": [
+            "pentru că se izolează de ceilalți;",
+            "pentru că atribuțiile și responsabilitățile sale sunt unice;",
+            "este un om deosebit și, de aceea, nu are prieteni."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "13",
+        "kerdes": "Ce semnifică dictonul lui Solomon: „Dacă vezi un om iscusit în lucrul lui acela poate sta lângă împărați\"?",
+        "valaszok": [
+            "că împărații (conducătorii) au nevoie de oameni iscusiți (buni);",
+            "că idealul de realizare umană este să fii bun în ceea ce faci în mod obisnuit;",
+            "că pentru a te realiza uman trebuie să ajungi împărat (conducător)."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "14",
+        "kerdes": "De ce credeți că managerul evoluează pe „puntea îngustă” dintre acționarii societății și angajații ei. Există interese diferite între acționari și angajați?",
+        "valaszok": [
+            "nu, cu toții au interese convergente legate de maximizarea profitului;",
+            "da, pentru că, de exemplu, salariile angajaților sunt un cost care diminuează profitul acționarilor;",
+            "nu, ambele categorii doresc să aibă venituri cât mai mari."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "15",
+        "kerdes": "Care dintre formulările de mai jos reprezintă avantajul „managementului prin rotație\"?",
+        "valaszok": [
+            "satisface orgoliile unui grup mai mare de oameni;",
+            "socializează conștiința responsabilității manageriale;",
+            "generează profituri mai mari pentru firmă."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "16",
+        "kerdes": "Analizând „Miorița” dintr-o perspectivă privind activitatea strict managerială și atitudinea concurențială, dincolo de aspectele morale, care ar fi personajul (personajele) competente?",
+        "valaszok": [
+            "baciul moldovean;",
+            "baciul vrâncean și cel ungurean;",
+            "toate personajele sunt competente."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "17",
+        "kerdes": "Într-o firmă privată patronul firmei este și managerul ei?",
+        "valaszok": [
+            "da, întotdeauna;",
+            "nu, niciodată;",
+            "există și această posibilitate."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "18",
+        "kerdes": "In cadrul organizației, climatul dintre oamenii care o compun este unul:",
+        "valaszok": [
+            "concurential;",
+            "armonios fără fricțiuni;",
+            "pot exista relații de toate tipurile."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Singurătatea managerului",
+        "id": "19",
+        "kerdes": "Care dintre următoarele atitudini ale individului uman sunt încurajate de cultura managerială?",
+        "valaszok": [
+            "să aspire la o funcție din ce în ce mai mare; să fie în mijlocul oamenilor și să conducă oamenii;",
+            "să fie lăsat în pace și să se bucure de liniște și izolare fată de alti oameni;",
+            "să obtină printr-un efort cât mai mic venituri cât mai mari."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "20",
+        "kerdes": "Cum ar trebui să fie un manager?",
+        "valaszok": [
+            "un bun administrator;",
+            "un lider;",
+            "un amestec între administrator și lider."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "21",
+        "kerdes": "Care dintre caracteristicile de bază ale unui manager este într-un oarecare progres în epoca noastră?",
+        "valaszok": [
+            "caracteristica administrativă;",
+            "caracteristica de lider;",
+            "nu există diferență între cele două caracteristici."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "22",
+        "kerdes": "S-ar putea face afirmația că există o legătură între management, organizarea religioasă, organizarea militară și organizarea statului?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "este legătură doar între management și organizarea militară."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "23",
+        "kerdes": "Se spune despre Cloșca, unul dintre cei trei conducători din răscoala lui Horia, Cloșca și Crișan, că porecla Cloșca i-ar fi provenit de la faptul că atunci când vorbea oamenii se strângeau cu interes în jurul său ca și puii în jurul cloștei. Credeti că această caracteristică a sa era o manifestare:",
+        "valaszok": [
+            "a autoritarismului;",
+            "a capacității sale de lider;",
+            "nu are nici o legătură cu condiția sa de conducător al răscoalei."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "24",
+        "kerdes": "Credeți că funcția managerială este întotdeauna o recompensă pentru excelența în profesia de bază? De exemplu, cel mai bun inginer este directorul fabricii în care lucrează, cel mai bun profesor este directorul școlii, cel mai bun actor este directorul teatrului, cel mai bun medic este directorul spitalului ș.a.m.d.?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "funcția managerială înseamnă altceva sau, cel puțin, o „valoare adăugată” la profesia de bază."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "25",
+        "kerdes": "Când Neagoe Basarab a scris cartea „Invățăturile lui Neagoe Basarab către fiul său Theodosie” el se adresa, în principal, cărui termen din ecuația: management — cunoștințe + talent?",
+        "valaszok": [
+            "cunoștințe;",
+            "talent;",
+            "cartea nu are conotații manageriale."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "26",
+        "kerdes": "Există două tipuri de autoritate pe care le poate avea un conducător într-o comunitate: formală si informală. De unde provin aceste tipuri de autoritate?",
+        "valaszok": [
+            "autoritatea formală din numirea într-o functie managerială, iar cea informală din caracteristica de lider a conducătorului;",
+            "autoritatea formală provine din caracteristicile de lider și cea informală din numirea pe funcția managerială;",
+            "atât autoritatea formală cât și cea informală se obțin pe baza numirii în funcția managerială."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "27",
+        "kerdes": "Un manager care conduce dând ordine și precizând cu strictețe ceea ce trebuie făcut, conform strategiei pe care el singur a gândit-o, poate fi asociat stilurilor de conducere:",
+        "valaszok": [
+            "push (împinge);",
+            "pull (trage);",
+            "se poate asocia la amândouă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "28",
+        "kerdes": "Un manager care se consultă cu angajații și folosește exemplul personal pentru a-i antrena în muncă, cărui stil dintre cele două stiluri de conducere poate fi asociat:",
+        "valaszok": [
+            "push (împinge);",
+            "pull (trage) ;",
+            "se poate asocia la amândouă."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managerul „omul cu două fețe”",
+        "id": "29",
+        "kerdes": "În criteriile biblice de selectare a „căpeteniilor” se afirmau patru caracteristici: 1) oameni destoinici, 2) temători de Dumnezeu, 3) oameni de încredere, 4) vrăjmași ai lăcomiei. Care dintre aceste caracteristici sugerează incoruptibilitatea:",
+        "valaszok": [
+            "oameni destoinici;",
+            "vrăjmași ai lăcomiei;",
+            "oameni de încredere."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "30",
+        "kerdes": "Care din sensurile verbului „to manage”, care a dat numele conceptului de management, pare a avea o legătură mai puternică cu mentalitatea românească?",
+        "valaszok": [
+            "a dirija;",
+            "a opera;",
+            "a te descurca."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "31",
+        "kerdes": "Managementul este o disciplină:",
+        "valaszok": [
+            "economică;",
+            "tehnică;",
+            "este de sine stătătoare."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "32",
+        "kerdes": "De ce cuvântul organizare nu poate reflecta conținutul disciplinei de management?",
+        "valaszok": [
+            "pentru că reprezintă doar unul din cele 5 atribute ale procesului managerial;",
+            "pentru că nu are nici o legătură cu managementul;",
+            "pentru că nu presupune o activitate științifică."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "33",
+        "kerdes": "Dacă am utiliza termenii de „hard” și „soft” din informatică, atunci managementul s-ar putea asocia la:",
+        "valaszok": [
+            "hard;",
+            "soft;",
+            "si la unul si la celălalt."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "34",
+        "kerdes": "Printre cei care au adus managementul în zona calculului cantitativ se numără și un matematician născut la Cluj: Este vorba de:",
+        "valaszok": [
+            "Lucian Blaga;",
+            "Abraham Wald;",
+            "Peter Drucker."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "35",
+        "kerdes": "În „Cartea creației” scrisă de patriarhul Avraam se vorbește de cinci „axe ale universului\": cele trei axe ale spațiului, axa timpului și axa bine-rău. Pe care dintre acestea apreciați că acționează mai cu seamă managementul:",
+        "valaszok": [
+            "pe cele trei axe ale spațiului;",
+            "axele spațiului + axa timpului;",
+            "axa bine-rău + axa timpului."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "36",
+        "kerdes": "Conform „The Chronicle of Higher Education” (1997) cele mai bine plătite cadre universitare din SUA își desfășoară activitatea în:",
+        "valaszok": [
+            "inginerie;",
+            "calculatoare;",
+            "economie."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "37",
+        "kerdes": "Există un element unificator care ar putea conduce la concluzia că managementul este prezent în aproape toate activitățile umane:",
+        "valaszok": [
+            "nu, managementul nu se găsește decât în organizațiile industriale;",
+            "da, pentru că activitățile umane presupun acțiuni de organizare a elementelor realității într-un sistem pentru a servi unui scop;",
+            "da, pentru că toate activitățile umane aduc bani."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "38",
+        "kerdes": "Care dintre afirmațiile de mai jos ar putea fi adevărată:",
+        "valaszok": [
+            "managementul este inginerie;",
+            "managementul este economie;",
+            "managementul este o disciplină distinctă."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Vocația universală a managementului",
+        "id": "39",
+        "kerdes": "Am putea vorbi de management în domenii neeconomice cum sunt: spitale, administrație, universități, artă, armată, biserică",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "da, dar nu la toate dintre cele enumerate."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "40",
+        "kerdes": "Credeți că omenirea a putut să trăiască mii de ani fără management?",
+        "valaszok": [
+            "a trăit fără să conștientizeze existența managementului;",
+            "managementul ca știință a existat dintotdeauna;",
+            "se poate trăi și fără management."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "41",
+        "kerdes": "Ce vroia să spună J. Joubert prin formularea: „marele inconvenient al cărților noi este că ne împiedică să le citim pe cele vechi” dacă asociem acest dicton la management?",
+        "valaszok": [
+            "că sunt prea multe cărți în epoca noastră;",
+            "că ar fi neeficient să citim doar cărțile vechi;",
+            "că marile adevăruri sunt în cărțile vechi care pe urmă sunt reactualizate în cărtile noi si că Biblia, Coranul, Talmudul ș.a. cuprind cunoștințe manageriale ce au fost actualizate în știința managerială modernă."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "42",
+        "kerdes": "Credeți că managementul are vreun rol în organizarea socială?",
+        "valaszok": [
+            "nu",
+            "da, pentru că, de fapt, gestionează resurselor comune și stabilește reguli de conduită pentru oameni;",
+            "da, când oamenii sunt angajați într-o organizație industrială."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "43",
+        "kerdes": "S-ar putea face o legătură între management, organizarea statului, organizarea religioasă și organizarea armatei?",
+        "valaszok": [
+            "nu, sunt domenii absolut distincte care nu se  influențează reciproc;",
+            "da, ele s-au influențat, iar managementul a apărut ca un numitor comun al lor;",
+            "da, dar acest lucru s-a întâmplat doar în antichitate."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "44",
+        "kerdes": "Apreciați că este o determinație între creșterea demografică și dezvoltarea managementului?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "nu se poate spune cu precizie nici da, nici nu."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "45",
+        "kerdes": "Ce reprezintă legea 20/80 sau legea lui Pareto?",
+        "valaszok": [
+            "legea asimetriei;",
+            "legea egalității;",
+            "legea echității."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "46",
+        "kerdes": "De ce religia și statul s-au sprijinit reciproc de-a lungul istoriei?",
+        "valaszok": [
+            "pentru că urmăreau interesul comun de a stabili ordine în societate;",
+            "nu a existat niciodată acest sprijin reciproc;",
+            "între stat și religie a existat, de fapt, o adversitate."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "47",
+        "kerdes": "Când o „colecție” de cunoștințe devine știință?",
+        "valaszok": [
+            "niciodată;",
+            "întotdeauna;",
+            "când ajunge la o „masă critică” și este validată ca atare de public și comunitatea academică."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "48",
+        "kerdes": "Care dintre următorii autori români ar putea fi considerați că au atins în operele lor aspecte manageriale: Lucian Blaga, Dimitrie Cantemir, Neagoe Basarab?",
+        "valaszok": [
+            "toti;",
+            "niciunul;",
+            "doar Lucian Blaga."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "A putut să trăiască lumea, mii de ani fără management?",
+        "id": "49",
+        "kerdes": "Care dintre următorii autori sunt recunoscuți pentru studiile lor privind legătura dintre religie și management?",
+        "valaszok": [
+            "Oswald Spengler;",
+            "Max Weber;",
+            "Z. Brzezinski."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "50",
+        "kerdes": "Dacă evoluția civilizației ar fi în spirală s-ar mai putea vorbi de dezvoltare ciclică?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "nu se poate da un răspuns precis."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "51",
+        "kerdes": "In care dintre teoriile de desfășurare rațională a activităților este promovat conceptul de „diviziune a muncii\"?",
+        "valaszok": [
+            "în teoria lui Adam Smith;",
+            "în conceptul de reengineering (a lui Hammer și Champy);",
+            "atât la „a” cât și la „b\"."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "52",
+        "kerdes": "La organizarea liniilor de asamblare de la Ford vorbim de:",
+        "valaszok": [
+            "reengineering cu proiectarea muncii pe procese;",
+            "de organizare prin divizarea proceselor pe operații;",
+            "de managementul riscului."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "53",
+        "kerdes": "In cadrul conceptului de reengineering care este relația dintre termenii de „proces” și „operație\"?",
+        "valaszok": [
+            "procesul este întregul și operația este o parte din proces;",
+            "operația este o sumă de procese;",
+            "cei doi termeni sunt echivalenti."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "54",
+        "kerdes": "Care dintre definițiile de mai jos reflectă cel mai bine conceptul de „productivitate a muncii\"?",
+        "valaszok": [
+            "numărul de obiecte simple realizate în unitatea de timp;",
+            "valoarea realizată de un muncitor într-o unitate de timp;",
+            "numărul de muncitori care concură la realizarea unui proces."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "55",
+        "kerdes": "De ce credeți că „diviziunea muncii” oferă un avantaj la organizarea procesului de producție?",
+        "valaszok": [
+            "pentru că, astfel, crește productivitatea muncii;",
+            "pentru că, altfel, crește numărul de personal ocupat;",
+            "pentru că, astfel, crește timpul în care se realizează un produs."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "56",
+        "kerdes": "Ce este mai important în instruirea managerială?",
+        "valaszok": [
+            "calculul matematic;",
+            "să știi să vorbești convingător;",
+            "trebuie să știi în același timp să vorbești și să ai cunostinte de matematică."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "57",
+        "kerdes": "Există o legătură între cultura națională și cultura organizatională?",
+        "valaszok": [
+            "da, cultura organizațională este influențată de cultura natională;",
+            "da, cultura națională este influențată preponderent de cultura organizațională;",
+            "nu, cele două noțiuni legate de cultură sunt independente."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "58",
+        "kerdes": "S-ar putea afirma că, managementul presupune „unități de contrarii\"?",
+        "valaszok": [
+            "nu, toate elementele sunt convergente;",
+            "da, de exemplu „cârmuirea cu libertatea\", cum spunea Tacit despre Cezar;",
+            "da, în final elementele opuse se distrug reciproc."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "59",
+        "kerdes": "Apreciați că lumea capitalistă este o lume:",
+        "valaszok": [
+            "a competiției și concurenței;",
+            "a ajutorului reciproc și a filantropismului;",
+            "a cooperării pașnice și a nonconcurenței."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Ciclitatea dezvoltării managementului",
+        "id": "60",
+        "kerdes": "Apreciați că procesul de globalizare va genera:",
+        "valaszok": [
+            "o omogenizare culturală, fără a influența culturile nationale;",
+            "o dezvoltare a culturilor comunitare în detrimentul culturii globale;",
+            "o dezvoltare a culturilor organizaționale mai accentuată în raport cu culturile naționale."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "61",
+        "kerdes": "Credeți că „brandul” universității are vreo influență în destinul profesional al unui absolvent?",
+        "valaszok": [
+            "da, dar nu disociat de efortul personal;",
+            "nu;",
+            "da, necondiționat."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "62",
+        "kerdes": "Care ar fi explicația pentru marele aflux spre învățământul managerial?",
+        "valaszok": [
+            "statutul social și material ridicat al managerului;",
+            "nu există un aflux către acest gen de instruire;",
+            "dorința de a face un bine celorlalți oameni."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "63",
+        "kerdes": "De ce credeți că există un „conflict” între instruirea în școli străine si mentalitatea românească?",
+        "valaszok": [
+            "pentru că învățământul străin pune în centru cunoștințele și în subsidiar diploma;",
+            "pentru că învățământul străin pune în centru diploma și în subsidiar cunostintele;",
+            "nu există un astfel de conflict."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "64",
+        "kerdes": "De ce credeți că în deceniul '90 s-a produs o „demitizare” a învățământului managerial occidental?",
+        "valaszok": [
+            "pentru că o mare parte din publicul românesc a avut acces la el;",
+            "pentru că era mult superior învățământului românesc;",
+            "pentru că era mult inferior învățământului românesc."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "65",
+        "kerdes": "Care este raportul între teorie și practică în învățământul managerial?",
+        "valaszok": [
+            "este suficientă o bună instruire teoretică;",
+            "nu pot exista una fără cealaltă;",
+            "este suficientă o bună experiență practică."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "66",
+        "kerdes": "De ce sunt avantajați managerii care au plecat „de jos\"?",
+        "valaszok": [
+            "pentru că sunt „empatici” cu angajații datorită experienței nemijlocite;",
+            "nu există un astfel de avantaj contează doar profesionalismul;",
+            "pentru că sunt oameni mai în vârstă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "67",
+        "kerdes": "Sunt importante conceptele de responsabilitate și etică în munca managerului?",
+        "valaszok": [
+            "câștigurile materiale estompează aspectele etice întotdeauna;",
+            "foarte importante până la nivelul că s-au conturat capitole speciale centrate pe aceste teme în cadrul managementului general;",
+            "managerul nu are responsabilitate pentru că el execută deciziile organelor de conducere colective."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "68",
+        "kerdes": "S-ar putea susține cu argumente logice afirmația că „învătământul este o afacere\"?",
+        "valaszok": [
+            "da, mai ales la învățământul particular și la învătământul occidental;",
+            "nu, sub nici o formă;",
+            "depinde de perspectiva din care privim problema."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "69",
+        "kerdes": "Pe ce s-ar putea fundamenta ideea rentabilității de a urma o instruire managerială în țară față de studiile din străinătate?",
+        "valaszok": [
+            "studiile în străinătate sunt incomparabil mai bune ca studiile în tară;",
+            "raportul calitate/cost este incomparabil mai bun la studiile în tară;",
+            "studiile în străinătate își justifică pe deplin costurile și efortul."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "„Avatarurile” instruirii manageriale",
+        "id": "70",
+        "kerdes": "Cum credeți că ar trebui să fie evoluția profesională naturală a unui manager?",
+        "valaszok": [
+            "să se instruiască teoretic și practic în formația profesională de bază și apoi prin studii suplimentare de management să acceadă la funcția managerială;",
+            "să se instruiască direct în management și apoi să ocupe funcția managerială;",
+            "să acceadă la funcția managerială indiferent dacă are studii în domeniu."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "71",
+        "kerdes": "Există o poziție foarte constantă în timp a binelui și răului în activitatea noastră.",
+        "valaszok": [
+            "cele două repere s-au mișcat în epoci diferite dar, în principiu, s-au menținut între anumite limite;",
+            "da, binele și răul s-au definit întotdeauna la fel;",
+            "în fiecare situație particulară există o altă definiție a binelui si răului."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "72",
+        "kerdes": "Câte axe ale universului sunt menționate în „Cartea creației” atribuită patriarhului Avraam?",
+        "valaszok": [
+            "cele trei axe ale spațiului cunoscute din geometrie;",
+            "patru axe: 3 axe ale spațiului și axa timp introdusă de Einstein;",
+            "cinci axe: 3 axe pentru spațiu, axa timp și axa bine-rău."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "73",
+        "kerdes": "Ce definim cu atributul „normal\"?",
+        "valaszok": [
+            "convențiile pe care societatea le stabilește la un anumit moment;",
+            "nu există o definiție pentru normalitate;",
+            "normal este ceea ce ne place nouă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "74",
+        "kerdes": "Există vreun indiciu privind durata în care se schimbă mentalitatea?",
+        "valaszok": [
+            "fiecare regim a evidențiat problema „schimbării de mentalitate” fără a fixa o durată;",
+            "dacă există obligativitate mentalitatea se schimbă imediat;",
+            "40 de ani cât a durat Exodul biblic în care evreii și-au schimbat mentalitatea de la sclav la stăpân."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "75",
+        "kerdes": "La ce se referea fostul ambasador al UE, Jonathan Scheele când vorbea de mentalitatea românească?",
+        "valaszok": [
+            "la orgoliul românesc exagerat;",
+            "la lipsa de încredere și de respect față de propriile noastre realizări;",
+            "la admirația noastră față de străinătate."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "76",
+        "kerdes": "Apreciați că trecerea de la o societate egalitară la una puternic diferentiată se face în conditii de moralitate absolută?",
+        "valaszok": [
+            "nu;",
+            "da;",
+            "pot apărea unele mici incompatibilități."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "77",
+        "kerdes": "Cum credeți că s-ar defini binele în societatea românească actuală?",
+        "valaszok": [
+            "o satisfacere deplină a intereselor personale;",
+            "o bună orientare către piață;",
+            "egalitate deplină între toți oamenii."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "78",
+        "kerdes": "Nemulțumirea față de starea noastră actuală poate fi o premisă pentru progres?",
+        "valaszok": [
+            "nu, pentru că ne descurajează și fundamentează neîncrederea în capacitatea de redresare;",
+            "da, dacă nu duce la subminarea încrederii în fortele proprii;",
+            "da, pentru că este o stare normală la toți oamenii."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "79",
+        "kerdes": "Care ar trebui să fie atitudinea față de corupție?",
+        "valaszok": [
+            "o campanie zgomotoasă de presă care să eradicheze corupția.",
+            "identificarea corupției și eradicarea ei fermă fără prea multă publicitate;",
+            "menținerea stării de fapt ca o normalitate de sistem."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cutreierând cu managementul pe axa „bine-rău” a universului",
+        "id": "80",
+        "kerdes": "Considerați România o țară mai coruptă decât alte țări din UE?",
+        "valaszok": [
+            "în orice țară în care sunt importanți banii există risc de corupție;",
+            "în România corupția este mult mai mare decât în alte tări;",
+            "în România nu există corupție."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "81",
+        "kerdes": "Ce înseamnă termenul paradigmă?",
+        "valaszok": [
+            "un mod de abordare al lumii;",
+            "o figură de stil din literatură;",
+            "o formulă matematică."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "82",
+        "kerdes": "Ce vroia să spună Bill Clinton, președintele SUA, când ne-a sfătuit să urmăm îndemnul „Deșteaptă-te române” din imnul national?",
+        "valaszok": [
+            "că trebuie să ne trezim din pasivitate și să ne adaptăm la ritmul de dezvoltare al lumii;",
+            "că trebuie să fim patrioți;",
+            "că suntem prea naționaliști."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "83",
+        "kerdes": "Apreciați că ritmul schimbării în epoca actuală este:",
+        "valaszok": [
+            "mai activ decât în epocile precedente;",
+            "mai lent decât în perioada anterioară;",
+            "este acelasi dintotdeauna."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "84",
+        "kerdes": "Există schimbare în epoca actuală?",
+        "valaszok": [
+            "schimbarea este continuă cu acelasi ritm;",
+            "schimbarea este aparentă;",
+            "schimbarea este continuă si accelerată."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "85",
+        "kerdes": "Care este mentalitatea noastră privind „încrederea în forțele proprii\"?",
+        "valaszok": [
+            "nu avem încredere în forțele proprii;",
+            "suntem prea încrezători în forțele proprii;",
+            "suntem egoiști și nu ascultăm de nimeni."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "86",
+        "kerdes": "Există posibilitatea ca o schimbare de paradigmă să schimbe realitatea?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "între cele două nu există nicio legătură;"
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "87",
+        "kerdes": "Există vreo legătură între excesul de mișcare și nemișcare?",
+        "valaszok": [
+            "mișcarea foarte activă este echivalentă nemișcării pentru că scapă percepției umane;",
+            "totul depinde de sistemul de referință și de observatorul miscării;",
+            "nu există mișcare."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "88",
+        "kerdes": "Cum a denumit P. Drucker epoca actuală?",
+        "valaszok": [
+            "epoca capitalistă;",
+            "epoca cunoașterii;",
+            "epoca socialistă."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "89",
+        "kerdes": "Cui aparține mesajul ,Am încredere în România și în români\"?",
+        "valaszok": [
+            "lui Mihai Eminescu;",
+            "lui Adrian Păunescu;",
+            "ambasadorului SUA în România Michael Guest."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Paradigma schimbării înseamnă o schimbare de paradigmă?",
+        "id": "90",
+        "kerdes": "F. Fukuyama spunea că nivelul de prosperitate al unei țări depinde de „nivelul de încredere reciprocă care există între membrii unei societăți\". Cum apreciați acest „nivel de încredere” în societatea românească?",
+        "valaszok": [
+            "extrem de dezvoltat;",
+            "slab;",
+            "dezvoltat."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "91",
+        "kerdes": "De ce s-ar putea afirma că timpul nu are aceeași valoare în epoci diferite, conform teoriei lui A. Tomer?",
+        "valaszok": [
+            "nu există această afirmație, timpul este egal;",
+            "întrucât pe măsura dezvoltării civilizației fiecare unitate de timp a avut o densitate mai mare de evenimente;",
+            "pentru că Pământul se învârte mai repede."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "92",
+        "kerdes": "Ce este mai important: acțiunea proprie sau conjunctura pe care o oferă realitatea?",
+        "valaszok": [
+            "acțiunea proprie desfășurată într-o conjunctură favorabilă;",
+            "conjunctura care aduce schimbarea;",
+            "acțiunea proprie indiferent de conjunctură."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "93",
+        "kerdes": "Care este legătura dintre schimbarea de paradigmă și conceptul de „reflexibilitate” definit de G. Soros?",
+        "valaszok": [
+            "reflexibilitatea s-ar putea să genereze o schimbare de paradigmă;",
+            "nu este nicio legătură;",
+            "reflexivitatea este o paradigmă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "94",
+        "kerdes": "Care este cea mai importantă sursă a schimbării?",
+        "valaszok": [
+            "Schimbarea, chiar dacă există, este insesizabilă;",
+            "omul cu modul său de abordare a lumii în care trăiește;",
+            "nu există schimbare, toate lucrurile se repetă."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "95",
+        "kerdes": "Fiecare din epocile care au marcat istoria omenirii a fost față de epoca precedentă:",
+        "valaszok": [
+            "mai scurtă;",
+            "mai lungă;",
+            "de aceeași lungime."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "96",
+        "kerdes": "Este valabil principiul de dezvoltare prin care binele individual conduce către binele global?",
+        "valaszok": [
+            "da, prin însumarea binelui individual rezultă binele global;",
+            "nu, sunt necesare decizii colective;",
+            "trebuie lăsat totul la acțiunea pieții."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "97",
+        "kerdes": "Ce înseamnă „fundamentalism de piață” potrivit concepției lui G Soros?",
+        "valaszok": [
+            "o concepție prin care toate problemele se rezolvă exclusiv prin acțiunea pieței;",
+            "este o colecție de reguli foarte stricte;",
+            "reflectă o dezvoltare foarte accelerată."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "98",
+        "kerdes": "Ce rol are în societatea românească politicul?",
+        "valaszok": [
+            "nu are nicio influență;",
+            "mult prea mare;",
+            "are o influență moderată."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "99",
+        "kerdes": "Când se consideră că s-a terminat o epocă și începe alta, în cadrul dezvoltării istorice?",
+        "valaszok": [
+            "când cantitatea de schimbare acumulată generează „altceva” decât ceea ce a fost până atunci;",
+            "este ceva convențional stabilit de istorici;",
+            "nu există o schimbare esențială între diferitele epoci istorice."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine-i de vină «piesa» sau «actorii»?",
+        "id": "100",
+        "kerdes": "Cum interpretați formularea lui Arthur Ashe: „Pentru a atinge măreția, pornește de unde te afli, folosește ceea ce ai și fă ceea ce poți\"?",
+        "valaszok": [
+            "trebuie să te asociezi efortului celorlalti oameni;",
+            "că nu trebuie să aștepți nimic de la nimeni și să ai încredere în ceea ce poți face singur;",
+            "să vezi în fiecare om un adversar."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "101",
+        "kerdes": "Ce reprezintă „școlile de management” în conformitate cu dezvoltarea științei manageriale?",
+        "valaszok": [
+            "o institutie în care se învată „alfabetul” managementului;",
+            "un ansamblu de reguli manageriale ce se aplică într-o anumită zonă geografică;",
+            "un curent de idei care se focalizează pe un domeniu al managementului, pe o zonă tematică sau pe un grup de aspecte manageriale."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "102",
+        "kerdes": "Care dintre conceptele: 1) management științific, 2) euromanagement, 3) management japonez, 4) management de contingență, reflectă o „școală de management\"?",
+        "valaszok": [
+            "2 și 3;",
+            "1 și 4;",
+            "2 și 4."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "103",
+        "kerdes": "A aplica, de exemplu, o soluție din vânzarea de produse agricole, în domeniul construcției de automobile ar putea fi considerată:",
+        "valaszok": [
+            "o mostră de gândire laterală;",
+            "o mostră de gândire verticală;",
+            "așa ceva este imposibil."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "104",
+        "kerdes": "Care dintre tipurile de management este mai apropiat de abordările colectiviste?",
+        "valaszok": [
+            "managementul american;",
+            "managementul asiatic;",
+            "managementul european."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "105",
+        "kerdes": "Conform „teoriei convergenței sistemelor” viitorul omenirii este:",
+        "valaszok": [
+            "comunismul;",
+            "capitalismul;",
+            "o societate care preia caracteristici ale ambelor sisteme."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "106",
+        "kerdes": "Organele colective de conducere ale organizațiilor urmăresc:",
+        "valaszok": [
+            "diminuarea responsabilității;",
+            "stimularea divergențelor dintre oameni pentru a fi mai usor condusi;",
+            "creșterea calității deciziilor prin analiza opiniilor diferite."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "107",
+        "kerdes": "Principiile eficienței și eficacității se aplică:",
+        "valaszok": [
+            "doar în organizațiile economice capitaliste;",
+            "doar în organizațiile economice asiatice;",
+            "peste tot în organizațiile economice."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "108",
+        "kerdes": "„Ținuta vestimentară riguroasă” a managerului este impusă de o anumită ideologie?",
+        "valaszok": [
+            "da;",
+            "nu;",
+            "nu există această problemă."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "109",
+        "kerdes": "Conceptul de „gândire laterală” promovat de E. de Bono se referă:",
+        "valaszok": [
+            "la indicatorii economici ai organizației;",
+            "la dimensionarea produselor mecanice;",
+            "la stimularea inovatiei."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul și gândirea laterală",
+        "id": "110",
+        "kerdes": "Edward de Bono este un cercetător în domeniul:",
+        "valaszok": [
+            "managementului;",
+            "matematicii;",
+            "metodelor de creativitate."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "111",
+        "kerdes": "Care din caracteristicile americanilor sunt valorificate de „reengineering”?",
+        "valaszok": [
+            "colectivismul;",
+            "individualismul;",
+            "responsabilitatea socială."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "112",
+        "kerdes": "Care dintre caracteristicile lumii actuale impune „lucrul în echipă\"?",
+        "valaszok": [
+            "responsabilitatea socială;",
+            "lipsa calificării;",
+            "complexitatea produselor."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "113",
+        "kerdes": "Ce înseamnă atributul de eficacitate?",
+        "valaszok": [
+            "a atinge obiectivele propuse;",
+            "a reduce costurile;",
+            "a inova."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "114",
+        "kerdes": "Ce înseamnă atributul eficiență?",
+        "valaszok": [
+            "un raport între efort și rezultate;",
+            "a atinge obiectivele propuse;",
+            "a obține ceva indiferent de resursele disponibile."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "115",
+        "kerdes": "Productivitatea muncii este un indicator care reflectă:",
+        "valaszok": [
+            "eficacitate;",
+            "eficiență;",
+            "echitate."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "116",
+        "kerdes": "Care dintre atributele enumerate mai jos sunt caracteristice pentru lumea occidentală?",
+        "valaszok": [
+            "individualism;",
+            "colectivism;",
+            "lipsă de responsabilitate."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "117",
+        "kerdes": "Care dintre atributele de mai jos sunt specifice lumii orientale?",
+        "valaszok": [
+            "pragmatism;",
+            "individualism;",
+            "colectivism."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "118",
+        "kerdes": "Teoria Z a lui Ouchi reflectă concepte legate de:",
+        "valaszok": [
+            "spiritul colectivist oriental;",
+            "lipsa de responsabilitate;",
+            "calitatea muncii."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "119",
+        "kerdes": "Care dintre relațiile de mai jos au fost formulate de Vasile Pârvan pentru emanciparea poporului român?",
+        "valaszok": [
+            "culturalizarea maselor și socializarea personalităților;",
+            "inovarea și crearea elitelor intelectuale;",
+            "munca responsabilă și eficientă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "120",
+        "kerdes": "Care dintre filozofii enumerați în continuare au definit omul ca un „animal social\"?",
+        "valaszok": [
+            "Aristotel;",
+            "Platon;",
+            "Seneca."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "121",
+        "kerdes": "Comunismul din România a contribuit la dezvoltarea spiritului:",
+        "valaszok": [
+            "colectivist;",
+            "individualist;",
+            "de proprietate."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Munca în echipă sau concilierea dintre individualism și colectivism",
+        "id": "122",
+        "kerdes": "Conceptul de reengineering se referă la:",
+        "valaszok": [
+            "proprietatea intelectuală;",
+            "schimbarea rapidă;",
+            "dezvoltarea lentă în ritmul naturii."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "123",
+        "kerdes": "Observația psihologului american D. McClelland: „copiii lumii seamănă mai mult între ei decât cu părinții sau bunicii lor” se referă la:",
+        "valaszok": [
+            "procesul de globalizare care conduce la o oarecare omogenizare culturală;",
+            "la creșterea diversității culturale;",
+            "la epuizarea resurselor de materii prime ale planetei."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "124",
+        "kerdes": "Se poate face afirmația că generația tânără actuală este mai slab pregătită decât generațiile anterioare.",
+        "valaszok": [
+            "da, necondiționat;",
+            "nu este mai slab pregătită ci doar diferită;",
+            "este mult mai dezvoltată."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "125",
+        "kerdes": "Se poate aprecia că, în 1989, s-a realizat o ruptură între generații?",
+        "valaszok": [
+            "ruptură este prea mult, a fost o schimbare profundă care a provocat reevaluări;",
+            "da, generația în vârstă a fost înlăturată din toate componentele sistemului social;",
+            "nu s-a întâmplat nimic privitor la conviețuirea dintre generații."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "126",
+        "kerdes": "Care dintre resursele de care dispune societatea sunt cele mai importante?",
+        "valaszok": [
+            "resursele materiale;",
+            "resursele umane;",
+            "resursele financiare."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "127",
+        "kerdes": "Poate fi acceptată pasivitatea ca și atitudine socială?",
+        "valaszok": [
+            "da, lucrurile se întâmplă oricum la fel;",
+            "activismul social poate aduce unele corecții;",
+            "da, este o componentă a democrației."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "128",
+        "kerdes": "Credeți că „mândria națională” are și o componentă stimulativă?",
+        "valaszok": [
+            "da, necondiționat;",
+            "nu;",
+            "da, atunci când nu aduce prejudicii altora."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "129",
+        "kerdes": "Ce este „sistemul Bologna\"?",
+        "valaszok": [
+            "un sistem de reguli comune pentru învățământul din UE;",
+            "un sistem de reguli comune pentru învățământul mondial;",
+            "un sistem de desfășurare a activității economice."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "130",
+        "kerdes": "Care dintre afirmațiile de mai jos se pot asocia „sistemului Bologna\"?",
+        "valaszok": [
+            "învățământul superior are 3 trepte: licență, masterat și doctorat;",
+            "evaluarea cunoștințelor se face obligatoriu prin note de la 1 la 10;",
+            "cei mai buni absolvenți trebuie reținuți în învățământul superior."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "131",
+        "kerdes": "Care dintre formulările de mai jos privitoare la învățământul superior le considerați adevărate?",
+        "valaszok": [
+            "toate universitătile sunt la fel de bune;",
+            "universitățile din țările dezvoltate sunt în mod necesar mai bune ca si cele din alte tări;",
+            "contează prestigiul universității absolvite, dar cel mai important lucru este nivelul de cunoștințe asimilate."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Resursa umană și clivajul dintre generații",
+        "id": "132",
+        "kerdes": "Cum este învățământul românesc, în privința costurilor, în raport cu cel din țările dezvoltate?",
+        "valaszok": [
+            "mai scump;",
+            "mai ieftin;",
+            "cam la fel."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "133",
+        "kerdes": "Care ar fi proporția potrivită dintre salariul managerului și salariile angajaților săi conform lui P. Drucker?",
+        "valaszok": [
+            "1/200",
+            "1/2",
+            "1/20"
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "134",
+        "kerdes": "Care credeți că este răspunsul corect cu privire la „locul de unde vine știința afacerilor” cum spunea M.B. Carson?",
+        "valaszok": [
+            "de la cei care sunt implicați direct în afaceri;",
+            "de la universități;",
+            "atât din mediul de afaceri cât și din mediul științific."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "135",
+        "kerdes": "Credeți că se poate învăța managementul doar din universitate?",
+        "valaszok": [
+            "nu, dacă ai talent nu-i nevoie de școală;",
+            "da;",
+            "da, dar dublat de activitatea practică."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "136",
+        "kerdes": "Cum interpretați formularea: „sunt foarte mulți absolvenți de filologie dar nu toți sunt scriitori” translatată la domeniul managerial?",
+        "valaszok": [
+            "pentru munca managerială ai nevoie și de talent nu numai de cunostinte;",
+            "că, dacă urmezi o facultate de management, poți ajunge sigur manager;",
+            "toate facultătile sunt utile."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "137",
+        "kerdes": "Managerul este cel care știe tot și formulează soluțiile și directiile de urmat?",
+        "valaszok": [
+            "el pune pe alții la lucru și își asumă responsabilitatea pentru ceea ce fac ei;",
+            "nu face nimic decât controlează si sanctionează;",
+            "el este proprietarul firmei."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "138",
+        "kerdes": "Se spune că și în management este valabil principiul din mecanică prin care „orice acțiune generează o reacțiune\". Care dintre formulările de mai jos reflectă acest principiu în activitatea managerială?",
+        "valaszok": [
+            "autoritate-responsabilitate;",
+            "cunoștințe-talent;",
+            "autoritate-competență."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "139",
+        "kerdes": "Care dintre situațiile de mai jos generează cea mai mare probabilitate de a nu ajunge manager?",
+        "valaszok": [
+            "cunoștințe fără talent;",
+            "talent și cunoștințe;",
+            "talent fără cunostinte."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "140",
+        "kerdes": "Există expresia: „un principe se cunoaște după miniștrii sal  Care este semnificatia acestei formulări în corelatie cu managementul?",
+        "valaszok": [
+            "înseamnă că o caracteristică importantă a managerului este să-și creeze o echipă;",
+            "înseamnă că „miniștrii” trebuie să-l asculte neconditionat;",
+            "înseamnă că „principele” provine dintre acești „miniștri” și este la fel ca ei."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "141",
+        "kerdes": "Cum credeți că se desfășoară viața unui manager?",
+        "valaszok": [
+            "la cea mai înaltă tensiune;",
+            "este lipsit de orice griji pentru că are siguranță materială;",
+            "are o viață obișnuită ca orice om."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Cine ești dumneata, domnule manager?",
+        "id": "142",
+        "kerdes": "Un manager trebuie să cunoască oamenii?",
+        "valaszok": [
+            "nu, el este un însingurat care dă ordine;",
+            "da, ca să-i înțeleagă în reacțiile lor și să poată obține cât  mai mult de la ei;",
+            "nu are importanță acest lucru în management."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "143",
+        "kerdes": "Care din formulările de mai jos reflectă cel mai bine noțiunea de piață în sensul managerial?",
+        "valaszok": [
+            "locul unde se vând cartofi si varză;",
+            "un spațiu larg în interiorul unui oraș sau o intersecție de mai multe stări;",
+            "spațiu de întâlnire a cererii cu oferta."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "144",
+        "kerdes": "Expresia „dacă ai carte ai parte” are la origine următoarea semnificatie:",
+        "valaszok": [
+            "ideea de proprietate „cartea” referindu-se la documentele de dovedire a proprietății;",
+            "dacă înveți vei avea succes;",
+            "se referă la bibliotecile care au mai multe cărti."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "145",
+        "kerdes": "Ce sens ar avea „vânzarea de diplome\"?",
+        "valaszok": [
+            "certificarea unui nivel social si cultural fără a avea cunostintele necesare;",
+            "acumularea de cunoștințe;",
+            "o profesionalizare excesivă."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "146",
+        "kerdes": "Care dintre cifrele de mai jos reflectă numărul de universități din România?",
+        "valaszok": [
+            "113;",
+            "90;",
+            "56."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "147",
+        "kerdes": "Credeți că prin intrarea României în UE s-a intensificat concurența în învățământul superior?",
+        "valaszok": [
+            "da, doar între universitățile din țară;",
+            "da, între universitățile din UE și absolvenții lor;",
+            "nu, lucrurile au rămas la fel ca înainte de aderarea la UE."
+        ],
+        "helyes": 1
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "148",
+        "kerdes": "Credeți că între „fundamentalismul de piață” și „somnul mioritic” este o opoziție?",
+        "valaszok": [
+            "cele două concepte au aceeași semnificație dar în culturi diferite;",
+            "nu sunt esential diferite;",
+            "da, un termen reprezintă o reglare excesivă a tuturor activităților prin piață, iar celălalt, înseamnă o sustragere de la activismul social si ritmul de evolutie al lumii."
+        ],
+        "helyes": 2
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "149",
+        "kerdes": "Dacă studentul nu plătește universitatea, atunci cine acoperă costurile scolarizării?",
+        "valaszok": [
+            "statul sau sponsorii;",
+            "nimeni, este o activitate care nu presupune costuri;",
+            "întreprinderile economice."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "150",
+        "kerdes": "Cine ar trebui să stabilească exigențele de pregătire pentru învățământul superior?",
+        "valaszok": [
+            "cel care finantează;",
+            "universitățile;",
+            "studenții."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "151",
+        "kerdes": "In învățământul de stat ce elemente ar trebui corelate?",
+        "valaszok": [
+            "necesitatea de specialiști — posibilități de finanțare  natura si calitatea cunostintelor cerute;",
+            "dorințele studenților — dorințele cadrelor didactice  posibilitățile universităților;",
+            "ritmul de dezvoltare al societății — preferințele studenților — capacitatea de ocupare a unui loc de muncă de către absolventi."
+        ],
+        "helyes": 0
+    },
+    {
+        "fejezet_cim": "Managementul universitar între „fundamentalismul de piață” și „somnul mioritic”",
+        "id": "152",
+        "kerdes": "Pornind de la cutuma că trebuie să existe o universitate la 1 milion de locuitori, cum este numărul de universităti din România?",
+        "valaszok": [
+            "mai mare;",
+            "mai mic;",
+            "se potrivește acestei proporții."
+        ],
+        "helyes": 2
+    }
+]

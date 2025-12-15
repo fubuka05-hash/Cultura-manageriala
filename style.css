@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 100%; /* Fontos a mobil elrendezéshez */
+    box-sizing: border-box; 
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Minden gomb (téma választó és válasz gomb) stílusa */
+button {
+    display: block;
+    width: 100%; /* Kitölti a rendelkezésre álló szélességet */
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+    
+    /* A hosszú szöveg sortörése */
+    white-space: normal; 
+    word-wrap: break-word; /* Biztosítja a sortörést */
+    text-align: left; /* A válaszok balra legyenek igazítva, ha betörnek */
+}
+
+/* ... (a többi stílusod) ... */
