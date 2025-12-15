@@ -1,53 +1,69 @@
-/* style.css - Optimalizált mobilnézet */
+/* style.css - Végleges mobil optimalizálás */
 
 body {
     font-family: Arial, sans-serif;
-    /* 1. Alapértelmezett margó minimalizálása mobilon */
-    margin: 10px; 
+    margin: 0; /* Teljes margó eltávolítása, hogy a böngésző széléig terjedjen */
     
-    /* 2. Általános betűméret növelése az olvashatóság érdekében */
-    font-size: 18px; 
+    /* Központosításhoz használjuk a fő konténert */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Vízszintes középre igazítás */
     
-    /* A fő konténer rugalmassága */
-    max-width: 100%; 
+    /* Alap betűméret vastagabbá tétele */
+    font-size: 19px; 
+    font-weight: 500; /* Kicsit vastagabb betűk */
+}
+
+/* Fő tartalom konténer, ami korlátozza a szélességet nagy képernyőkön, de mobilon teljesen kitölti */
+#main-container {
+    width: 100%;
+    max-width: 600px; /* Max. szélesség, hogy ne legyen túl széles asztali gépen */
+    padding: 10px;
     box-sizing: border-box; 
-    padding: 0; /* Ne legyen felesleges padding */
 }
 
 h1 {
     text-align: center;
-    /* Cím nagyobb betűmérettel, hogy jobban kiemelkedjen */
-    font-size: 24px; 
-    margin-bottom: 20px;
-}
-
-/* Kiemelt stílus a tartalom doboznak (temeDiv, questionScreen) */
-#teme, #question-screen {
-    padding: 0 5px; /* Kicsit balról/jobbról eltoljuk a szöveget, de nem túl sokat */
+    font-size: 26px; /* Nagyobb cím */
+    margin: 15px 0 25px 0; /* Több hely a cím körül */
+    font-weight: bold;
 }
 
 /* Minden gomb (téma választó és válasz gomb) stílusa */
 button {
     display: block;
-    width: 100%; /* Kitölti a rendelkezésre álló szélességet */
+    width: 100%; 
     
-    /* 3. Gombok magasságának és paddingjének növelése (könnyebb rákattintani) */
-    padding: 15px; 
-    margin: 8px 0; /* Több hely a gombok között */
+    /* 1. Gombok magasságának és paddingjének NAGYÍTÁSA */
+    padding: 18px 15px; /* Még nagyobb padding a tapinthatóságért */
+    margin: 10px 0; /* Még több hely a gombok között */
     
-    /* 4. Betűméret növelése a gombokon is */
-    font-size: 18px; 
+    /* 2. Betűméret növelése a gombokon */
+    font-size: 19px; 
+    font-weight: 600; /* Még vastagabb betűk */
     
-    border-radius: 8px; /* Lekerekített sarkok a modern megjelenésért */
+    border-radius: 10px; /* Kicsit kerekebb sarkok */
     text-align: left; 
     white-space: normal;
     word-wrap: break-word; 
     cursor: pointer;
-    transition: background-color 0.2s; /* Színváltás animáció */
+    transition: background-color 0.2s;
+    border: 2px solid #ccc; /* Vastagabb keret a jobb elkülönülésért */
+    background-color: #ffffff; /* Fehér háttér a gomboknak */
 }
 
-button:hover {
-    background-color: #f0f0f0;
+/* Vissza gomb és Következő gomb */
+#backBtn, #nextBtn {
+    width: auto; 
+    padding: 12px 25px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #4CAF50; /* Zöld háttér a Next gombnak */
+    color: white; 
+    border: none;
+    text-align: center;
+    display: inline-block;
 }
 
 /* Színjelzések (már működik) */
@@ -59,20 +75,4 @@ button:hover {
 .wrong {
     background-color: lightcoral !important; 
     color: black !important;
-}
-
-/* Vissza gomb stílusa a kvíz képernyőn */
-#backBtn {
-    width: auto; 
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ddd;
-    font-size: 16px;
-    display: inline-block;
-}
-
-/* A fejezetlista (temeDiv) gombjai kicsit kiemelkednek */
-.tema-button {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
 }
