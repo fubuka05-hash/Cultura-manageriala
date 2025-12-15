@@ -12,6 +12,11 @@ let currentQuestions = [];
 let currentIndex = 0;
 let answered = false;
 
+// 🟢 ÚJ GLOBÁLIS VÁLTOZÓK A PONTOZÁSHOZ 
+let correctCount = 0;
+let totalAsked = 0;
+
+
 // --- SEGÉDFÜGGVÉNYEK ---
 
 // Tömb keverés
@@ -44,7 +49,10 @@ function renderTemaList() {
 
 // --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS ---
 function selectTema(fejezet) {
-    // FONTOS: Visszaállítjuk a Next gombot, ha a felhasználó többször futtat egy fejezetet
+    // 🟢 SZÁMLÁLÓK ALAPHELYZETBE ÁLLÍTÁSA INDÍTÁSKOR
+    correctCount = 0;
+    totalAsked = 0;
+    
     nextBtn.disabled = true; 
     
     currentQuestions = questions.filter(q => q.fejezet_cim === fejezet);
@@ -75,14 +83,12 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
-    // Feltételezzük, hogy a JSON kulcsok q.id, q.kerdes stb. (kisbetűs)
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
         const btn = document.createElement("button");
         btn.textContent = answer;
         
-        // FONTOS: Töröljük a korábbi inline stílusokat (ha lennének)
         btn.removeAttribute('style'); 
 
         btn.onclick = () => checkAnswer(btn, index, q.helyes); 
@@ -92,16 +98,21 @@ function loadQuestion() {
 
 // --- ELLENŐRZÉS (GOMB KATTINTÁS) ---
 function checkAnswer(button, index, correctIndex) {
+    global correctCount, totalAsked // ⬅️ Ezt a sort a Pythonból felejtetted bent, JS-ben nincs rá szükség! Töröljük!
     if (answered) return;
     answered = true;
+    
+    // 🟢 PONTOZÁS INKRMENTÁLÁSA
+    totalAsked++;
+    if (index === correctIndex) {
+        correctCount++;
+    }
 
     const buttons = answersDiv.querySelectorAll("button");
 
     buttons.forEach((btn, i) => {
         btn.disabled = true;
         
-        // Kényszerítsük az alapértelmezett háttérszín törlését 
-        // (bár a CSS !important-nak ezt kezelnie kellene)
         btn.removeAttribute('style'); 
         
         if (i === correctIndex) {
@@ -120,7 +131,9 @@ function checkAnswer(button, index, correctIndex) {
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
-        alert("Ai parcurs toate întrebările din acest capitol!");
+        // 🟢 EREDMÉNY KIÍRÁSA A TÉMAKÖR VÉGÉN
+        alert(`Ai parcurs toate întrebările din acest capitol!\nAi răspuns corect la ${correctCount} din ${totalAsked} întrebări.`);
+        
         backBtn.click(); 
         return;
     }
