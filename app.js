@@ -7,14 +7,19 @@ const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
 
+// 🟢 ÚJ DOM ELEM A FŐ CÍM (H1) ELÉRÉSÉHEZ
+const mainTitle = document.querySelector('h1'); 
+
 let questions = []; 
 let currentQuestions = [];
 let currentIndex = 0;
 let answered = false;
 
-// 🟢 ÚJ GLOBÁLIS VÁLTOZÓK A PONTOZÁSHOZ 
 let correctCount = 0;
 let totalAsked = 0;
+
+// Eredeti fő cím szövege, amit visszaállítunk
+const originalTitle = "Cultura Managerială – Program de învățare";
 
 
 // --- SEGÉDFÜGGVÉNYEK ---
@@ -29,6 +34,9 @@ function shuffleArray(array) {
 
 // --- TÉMÁK LISTÁZÁSA (Kezdőképernyő) ---
 function renderTemaList() {
+    // 🟢 1. Cél: Fő cím visszaállítása a főoldalon
+    mainTitle.textContent = originalTitle;
+    
     temeDiv.innerHTML = "";
     if (questions.length === 0) {
         temeDiv.textContent = "A kérdések betöltése sikertelen. Ellenőrizze a hálózati kapcsolatot vagy a JSON fájlt.";
@@ -37,9 +45,12 @@ function renderTemaList() {
     
     let fejezetek = [...new Set(questions.map(q => q.fejezet_cim))];
 
-    fejezetek.forEach(f => {
+    // 🟢 2. Cél: Fejezetek sorszámozása (1., 2., 3., ...)
+    fejezetek.forEach((f, index) => {
         const btn = document.createElement("button");
-        btn.textContent = f;
+        // Hozzáadjuk a sorszámot a címhez
+        btn.textContent = `${index + 1}. ${f}`; 
+        
         btn.classList.add('tema-button');
         btn.onclick = () => selectTema(f);
         temeDiv.appendChild(btn);
@@ -49,7 +60,9 @@ function renderTemaList() {
 
 // --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS ---
 function selectTema(fejezet) {
-    // 🟢 SZÁMLÁLÓK ALAPHELYZETBE ÁLLÍTÁSA INDÍTÁSKOR
+    // 🟢 1. Cél: Fejezet címének beállítása a kvíz képernyőn
+    mainTitle.textContent = fejezet;
+    
     correctCount = 0;
     totalAsked = 0;
     
@@ -72,6 +85,10 @@ function showQuestionScreen() {
 backBtn.onclick = () => {
     questionScreen.style.display = "none";
     temaListScreen.style.display = "block";
+    
+    // 🟢 1. Cél: Fő cím visszaállítása a főoldalon
+    mainTitle.textContent = originalTitle; 
+    
     renderTemaList();
 }
 
@@ -83,6 +100,7 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
+    // A kérdés számozása most: "Kérdés ID. Kérdés szövege"
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
@@ -101,7 +119,6 @@ function checkAnswer(button, index, correctIndex) {
     if (answered) return;
     answered = true;
     
-    // 🟢 PONTOZÁS INKRMENTÁLÁSA
     totalAsked++;
     if (index === correctIndex) {
         correctCount++;
@@ -130,7 +147,6 @@ function checkAnswer(button, index, correctIndex) {
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
-        // 🟢 EREDMÉNY KIÍRÁSA A TÉMAKÖR VÉGÉN
         alert(`Ai parcurs toate întrebările din acest capitol!\nAi răspuns corect la ${correctCount} din ${totalAsked} întrebări.`);
         
         backBtn.click(); 
@@ -140,7 +156,7 @@ nextBtn.onclick = () => {
 };
 
 
-// --- JSON ADATOK BETÖLTÉSE ASZINKRON (A webes működés kulcsa) ---
+// --- JSON ADATOK BETÖLTÉSE ASZINKRON ---
 async function initializeApp() {
     try {
         const response = await fetch('kerdesek.json');
@@ -162,4 +178,3 @@ async function initializeApp() {
 
 // --- ALKALMAZÁS INDÍTÁSA ---
 initializeApp();
-
