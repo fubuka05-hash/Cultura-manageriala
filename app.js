@@ -2,14 +2,20 @@
 const temaListScreen = document.getElementById("tema-list");
 const temeDiv = document.getElementById("teme");
 const questionScreen = document.getElementById("question-screen");
-const questionDiv = document.getElementById("question"); // KRITIKUS: Ezt hagytuk ki legutóbb
+const questionDiv = document.getElementById("question"); 
 const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
 const mainTitle = document.querySelector('h1'); 
 const finalTestBtn = document.getElementById("finalTestBtn"); 
-// 🟢 ÚJ DOM ELEM A PROGRESSZ SZÁMLÁLÓHOZ
 const progressDiv = document.getElementById("progress"); 
+
+// 🟢 MODÁL ELEMEK
+const resultModal = document.getElementById("resultModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalBody = document.getElementById("modalBody");
+const modalCloseBtn = document.getElementById("modalCloseBtn"); 
+
 
 let questions = []; 
 let currentQuestions = [];
@@ -22,17 +28,34 @@ let totalAsked = 0;
 const originalTitle = "Cultura Managerială – Program de învățare";
 
 
-// --- SEGÉDFÜGGVÉNYEK (shuffleArray, getRandomQuestions...) ---
+// --- SEGÉDFÜGGVÉNYEK (shuffleArray, getRandomQuestions) ---
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
+        [array[i], array[j]] = [array[i], array[j]];
     }
 }
 
 function getRandomQuestions(sourceArray, count) {
     shuffleArray(sourceArray);
     return sourceArray.slice(0, count);
+}
+
+// 🟢 ÚJ FUNKCIÓ: Modál megjelenítése
+function showResultModal() {
+    // Felülírjuk a modál szövegeit a végeredménnyel
+    modalTitle.textContent = "Felicitări!"; 
+    modalBody.innerHTML = `
+        Ai parcurs toate întrebările din acest capitol!<br>
+        Ai răspuns corect la <strong>${correctCount}</strong> din <strong>${totalAsked}</strong> întrebări.
+    `;
+    resultModal.style.display = 'flex'; // Modál megjelenítése középen
+}
+
+// 🟢 ÚJ FUNKCIÓ: Modál bezárása
+modalCloseBtn.onclick = () => {
+    resultModal.style.display = 'none'; // Modál elrejtése
+    backBtn.click(); // Vissza a fejezetekhez (így a backBtn logikája fut le)
 }
 
 
@@ -114,11 +137,9 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
-    // 🟢 VÁLTOZÁS ITT: Progress számláló beállítása az új progressDiv elemben
     const progressText = `Întrebarea ${currentIndex + 1} din ${currentQuestions.length}`;
     progressDiv.textContent = progressText; 
     
-    // 🟢 A kérdés már NEM TARTALMAZZA a számlálót
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
@@ -165,9 +186,8 @@ function checkAnswer(button, index, correctIndex) {
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
-        alert(`Ai parcurs toate întrebările din acest capitol!\nAi răspuns corect la ${correctCount} din ${totalAsked} întrebări.`);
-        
-        backBtn.click(); 
+        // 🟢 VÁLTOZÁS ITT: Lecseréljük az alert()-et a custom modálra
+        showResultModal();
         return;
     }
     loadQuestion();
