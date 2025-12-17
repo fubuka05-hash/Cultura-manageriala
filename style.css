@@ -111,4 +111,12 @@ button {
     /* Kicsit nagyobb margóval különböztetjük meg a fejezetektől */
     margin: 30px 0 10px 0; 
 }
+#progress {
+    /* Esztétikusabb, kisebb, szürke progressz számláló */
+    font-size: 16px; 
+    color: #6c757d; /* Sötét szürke szín */
+    text-align: center; /* Középre igazítás */
+    font-weight: bold;
+    margin-bottom: 5px; /* Kicsit elválasztjuk a kérdéstől */
+}
 
