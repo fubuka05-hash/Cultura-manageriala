@@ -80,7 +80,7 @@ button:hover:not(:disabled) {
 }
 
 #nextBtn {
-    background-color: #007bff; 
+    background-color: #42a813; 
 }
 #backBtn {
     background-color: #f44336; /* Piros a vissza gombnak */
@@ -194,3 +194,4 @@ button:hover:not(:disabled) {
 #modalCloseBtn:hover {
     background-color: #0056b3;
 }
+
