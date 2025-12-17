@@ -28,7 +28,7 @@ let totalAsked = 0;
 const originalTitle = "Cultura Managerială – Program de învățare";
 
 
-// --- SEGÉDFÜGGVÉNYEK (shuffleArray, getRandomQuestions) ---
+// --- SEGÉDFÜGGVÉNYEK ---
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -41,9 +41,8 @@ function getRandomQuestions(sourceArray, count) {
     return sourceArray.slice(0, count);
 }
 
-// 🟢 ÚJ FUNKCIÓ: Modál megjelenítése
+// 🟢 FUNKCIÓ: Modál megjelenítése (Eredmény)
 function showResultModal() {
-    // Felülírjuk a modál szövegeit a végeredménnyel
     modalTitle.textContent = "Felicitări!"; 
     modalBody.innerHTML = `
         Ai parcurs toate întrebările din acest capitol!<br>
@@ -52,14 +51,14 @@ function showResultModal() {
     resultModal.style.display = 'flex'; // Modál megjelenítése középen
 }
 
-// 🟢 ÚJ FUNKCIÓ: Modál bezárása
+// 🟢 FUNKCIÓ: Modál bezárása
 modalCloseBtn.onclick = () => {
     resultModal.style.display = 'none'; // Modál elrejtése
-    backBtn.click(); // Vissza a fejezetekhez (így a backBtn logikája fut le)
+    backBtn.click(); // Vissza a fejezetekhez
 }
 
 
-// --- TÉMÁK LISTÁZÁSA (renderTemaList) ---
+// --- TÉMÁK LISTÁZÁSA ---
 function renderTemaList() {
     mainTitle.textContent = originalTitle;
     temeDiv.innerHTML = "";
@@ -74,6 +73,7 @@ function renderTemaList() {
 
     let fejezetek = [...new Set(questions.map(q => q.fejezet_cim))];
 
+    // Sorszámozott fejezet gombok létrehozása
     fejezetek.forEach((f, index) => {
         const btn = document.createElement("button");
         btn.textContent = `${index + 1}. ${f}`; 
@@ -84,7 +84,7 @@ function renderTemaList() {
     });
 }
 
-// --- ÚJ FUNKCIÓ: Végső teszt indítása (finalTestBtn.onclick) ---
+// --- VÉGSŐ TESZT INDÍTÁSA ---
 finalTestBtn.onclick = () => {
     const finalTestQuestions = getRandomQuestions(questions, 30);
     currentQuestions = finalTestQuestions;
@@ -99,7 +99,7 @@ finalTestBtn.onclick = () => {
 };
 
 
-// --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS (selectTema) ---
+// --- TÉMA KIVÁLASZTÁS ---
 function selectTema(fejezet) {
     mainTitle.textContent = fejezet;
     
@@ -115,7 +115,7 @@ function selectTema(fejezet) {
 }
 
 
-// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ (showQuestionScreen, backBtn.onclick) ---
+// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ ---
 function showQuestionScreen() {
     temaListScreen.style.display = "none";
     questionScreen.style.display = "block";
@@ -129,7 +129,7 @@ backBtn.onclick = () => {
 }
 
 
-// --- KÉRDÉS BETÖLTÉSE (loadQuestion) ---
+// --- KÉRDÉS BETÖLTÉSE ---
 function loadQuestion() {
     answered = false;
     nextBtn.disabled = true;
@@ -137,9 +137,11 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
+    // Számláló beállítása az új, esztétikus progressDiv elemben
     const progressText = `Întrebarea ${currentIndex + 1} din ${currentQuestions.length}`;
     progressDiv.textContent = progressText; 
     
+    // Kérdés szövege
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
@@ -153,7 +155,7 @@ function loadQuestion() {
     });
 }
 
-// --- ELLENŐRZÉS (checkAnswer) ---
+// --- ELLENŐRZÉS ---
 function checkAnswer(button, index, correctIndex) {
     if (answered) return;
     answered = true;
@@ -182,11 +184,11 @@ function checkAnswer(button, index, correctIndex) {
     nextBtn.disabled = false;
 }
 
-// --- KÖVETKEZŐ KÉRDÉS (nextBtn.onclick) ---
+// --- KÖVETKEZŐ KÉRDÉS ---
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
-        // 🟢 VÁLTOZÁS ITT: Lecseréljük az alert()-et a custom modálra
+        // Lecseréltük az alert()-et a custom modálra
         showResultModal();
         return;
     }
@@ -194,7 +196,7 @@ nextBtn.onclick = () => {
 };
 
 
-// --- JSON ADATOK BETÖLTÉSE ASZINKRON (initializeApp) ---
+// --- JSON ADATOK BETÖLTÉSE ---
 async function initializeApp() {
     try {
         const response = await fetch('kerdesek.json');
