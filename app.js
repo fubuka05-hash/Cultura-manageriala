@@ -2,14 +2,14 @@
 const temaListScreen = document.getElementById("tema-list");
 const temeDiv = document.getElementById("teme");
 const questionScreen = document.getElementById("question-screen");
-const questionDiv = document.getElementById("question");
+const questionDiv = document.getElementById("question"); // KRITIKUS: Ezt hagytuk ki legutóbb
 const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
 const mainTitle = document.querySelector('h1'); 
-
-// 🟢 ÚJ DOM ELEM A VÉGSŐ TESZT GOMBOZ
 const finalTestBtn = document.getElementById("finalTestBtn"); 
+// 🟢 ÚJ DOM ELEM A PROGRESSZ SZÁMLÁLÓHOZ
+const progressDiv = document.getElementById("progress"); 
 
 let questions = []; 
 let currentQuestions = [];
@@ -22,9 +22,7 @@ let totalAsked = 0;
 const originalTitle = "Cultura Managerială – Program de învățare";
 
 
-// --- SEGÉDFÜGGVÉNYEK ---
-
-// Tömb keverés
+// --- SEGÉDFÜGGVÉNYEK (shuffleArray, getRandomQuestions...) ---
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -32,28 +30,23 @@ function shuffleArray(array) {
     }
 }
 
-// 🟢 FUNKCIÓ: Random kérdések kiválasztása
 function getRandomQuestions(sourceArray, count) {
-    // 1. Keverjük meg az eredeti tömböt (hogy a mintavétel valóban véletlenszerű legyen)
     shuffleArray(sourceArray);
-    // 2. Vegyük az első 'count' elemet
     return sourceArray.slice(0, count);
 }
 
 
-// --- TÉMÁK LISTÁZÁSA (Kezdőképernyő) ---
+// --- TÉMÁK LISTÁZÁSA (renderTemaList) ---
 function renderTemaList() {
     mainTitle.textContent = originalTitle;
     temeDiv.innerHTML = "";
     
     if (questions.length === 0) {
         temeDiv.textContent = "A kérdések betöltése sikertelen. Ellenőrizze a hálózati kapcsolatot vagy a JSON fájlt.";
-        // 🟢 Rejtjük a Teszt Gombot, ha az adatok sem töltődtek be
         finalTestBtn.style.display = 'none'; 
         return;
     }
     
-    // 🟢 Megjelenítjük a Teszt Gombot, ha a kérdések betöltődtek
     finalTestBtn.style.display = 'block'; 
 
     let fejezetek = [...new Set(questions.map(q => q.fejezet_cim))];
@@ -68,15 +61,11 @@ function renderTemaList() {
     });
 }
 
-// 🟢 ÚJ FUNKCIÓ: Végső teszt indítása
+// --- ÚJ FUNKCIÓ: Végső teszt indítása (finalTestBtn.onclick) ---
 finalTestBtn.onclick = () => {
-    // 1. Kijelöljük a véletlenszerű 30 kérdést
     const finalTestQuestions = getRandomQuestions(questions, 30);
-    
-    // 2. Inicializáljuk a kvízt a kiválasztott kérdésekkel
     currentQuestions = finalTestQuestions;
     
-    // 3. Teszt indítása (logika megegyezik a selectTema-val, de fix címmel)
     mainTitle.textContent = "Test Final: 30 întrebări";
     correctCount = 0;
     totalAsked = 0;
@@ -87,7 +76,7 @@ finalTestBtn.onclick = () => {
 };
 
 
-// --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS ---
+// --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS (selectTema) ---
 function selectTema(fejezet) {
     mainTitle.textContent = fejezet;
     
@@ -103,7 +92,7 @@ function selectTema(fejezet) {
 }
 
 
-// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ (Változatlan, de a backBtn visszateszi a főcímet) ---
+// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ (showQuestionScreen, backBtn.onclick) ---
 function showQuestionScreen() {
     temaListScreen.style.display = "none";
     questionScreen.style.display = "block";
@@ -117,7 +106,7 @@ backBtn.onclick = () => {
 }
 
 
-// --- KÉRDÉS BETÖLTÉSE (Változatlan) ---
+// --- KÉRDÉS BETÖLTÉSE (loadQuestion) ---
 function loadQuestion() {
     answered = false;
     nextBtn.disabled = true;
@@ -125,6 +114,11 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
+    // 🟢 VÁLTOZÁS ITT: Progress számláló beállítása az új progressDiv elemben
+    const progressText = `Întrebarea ${currentIndex + 1} din ${currentQuestions.length}`;
+    progressDiv.textContent = progressText; 
+    
+    // 🟢 A kérdés már NEM TARTALMAZZA a számlálót
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
@@ -138,7 +132,7 @@ function loadQuestion() {
     });
 }
 
-// --- ELLENŐRZÉS (GOMB KATTINTÁS) ---
+// --- ELLENŐRZÉS (checkAnswer) ---
 function checkAnswer(button, index, correctIndex) {
     if (answered) return;
     answered = true;
@@ -167,7 +161,7 @@ function checkAnswer(button, index, correctIndex) {
     nextBtn.disabled = false;
 }
 
-// --- KÖVETKEZŐ KÉRDÉS ---
+// --- KÖVETKEZŐ KÉRDÉS (nextBtn.onclick) ---
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
@@ -180,7 +174,7 @@ nextBtn.onclick = () => {
 };
 
 
-// --- JSON ADATOK BETÖLTÉSE ASZINKRON ---
+// --- JSON ADATOK BETÖLTÉSE ASZINKRON (initializeApp) ---
 async function initializeApp() {
     try {
         const response = await fetch('kerdesek.json');
