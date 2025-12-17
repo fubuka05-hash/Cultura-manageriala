@@ -69,13 +69,24 @@ button {
     text-align: center;
 }
 
-#nextBtn, #backBtn {
+#nextBtn {
     width: auto; 
     padding: 15px 30px;
     margin: 25px 5px 0 5px; 
     font-size: 18px;
     font-weight: bold;
-    background-color: #007bff; 
+    background-color: #00ff5e; 
+    color: white; 
+    border: none;
+    display: inline-block;
+}
+#backBtn {
+    width: auto; 
+    padding: 15px 30px;
+    margin: 25px 5px 0 5px; 
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ff3300; 
     color: white; 
     border: none;
     display: inline-block;
@@ -100,3 +111,4 @@ button {
     /* Kicsit nagyobb margóval különböztetjük meg a fejezetektől */
     margin: 30px 0 10px 0; 
 }
+
