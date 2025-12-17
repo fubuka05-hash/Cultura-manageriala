@@ -1531,7 +1531,7 @@
     {
         "fejezet_cim": "Cine ești dumneata, domnule manager?",
         "id": "140",
-        "kerdes": "Există expresia: „un principe se cunoaște după miniștrii sal  Care este semnificatia acestei formulări în corelatie cu managementul?",
+        "kerdes": "Există expresia: „un principe se cunoaște după miniștrii săi".  Care este semnificatia acestei formulări în corelatie cu managementul?",
         "valaszok": [
             "înseamnă că o caracteristică importantă a managerului este să-și creeze o echipă;",
             "înseamnă că „miniștrii” trebuie să-l asculte neconditionat;",
@@ -1671,4 +1671,5 @@
         ],
         "helyes": 2
     }
+
 ]
