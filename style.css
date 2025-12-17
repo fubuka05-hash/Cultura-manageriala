@@ -122,6 +122,70 @@ button {
     margin-top: -15px; /* Kicsit feljebb húzzuk a H1-hez */
     margin-bottom: 20px; /* Szépen elválasztjuk a kérdéstől */
 }
+/* style.css (A fájl végére) */
+
+/* Modál (A teljes képernyős háttér) */
+.modal {
+    display: none; /* Kezdetben rejtett */
+    position: fixed; 
+    z-index: 1000; /* Legelöl legyen */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Fekete, áttetsző háttér */
+    
+    /* Középre igazítás Flexible Box Layouttal */
+    display: flex;
+    justify-content: center; /* Vízszintes középre */
+    align-items: center; /* Függőleges középre */
+}
+
+/* Modál tartalom (A fehér doboz) */
+.modal-content {
+    background-color: #fff;
+    margin: auto; 
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 90%; 
+    width: 400px;
+    text-align: center; /* Szövegek középre igazítása */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Cím a modálban */
+#modalTitle {
+    color: #4CAF50; /* Zöld kiemelés */
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Szöveges tartalom */
+#modalBody {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* OK gomb (felülírja az alap button stílusokat a modálban) */
+#modalCloseBtn {
+    display: inline-block; 
+    width: 150px; 
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#modalCloseBtn:hover {
+    background-color: #0056b3;
+}
 
 
 
