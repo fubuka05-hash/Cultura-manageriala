@@ -7,8 +7,6 @@ const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
 const mainTitle = document.querySelector('h1'); 
-
-// 🟢 ÚJ DOM ELEM A VÉGSŐ TESZT GOMBOZ
 const finalTestBtn = document.getElementById("finalTestBtn"); 
 
 let questions = []; 
@@ -32,11 +30,9 @@ function shuffleArray(array) {
     }
 }
 
-// 🟢 FUNKCIÓ: Random kérdések kiválasztása
+// Funkció: Random kérdések kiválasztása
 function getRandomQuestions(sourceArray, count) {
-    // 1. Keverjük meg az eredeti tömböt (hogy a mintavétel valóban véletlenszerű legyen)
     shuffleArray(sourceArray);
-    // 2. Vegyük az első 'count' elemet
     return sourceArray.slice(0, count);
 }
 
@@ -48,12 +44,10 @@ function renderTemaList() {
     
     if (questions.length === 0) {
         temeDiv.textContent = "A kérdések betöltése sikertelen. Ellenőrizze a hálózati kapcsolatot vagy a JSON fájlt.";
-        // 🟢 Rejtjük a Teszt Gombot, ha az adatok sem töltődtek be
         finalTestBtn.style.display = 'none'; 
         return;
     }
     
-    // 🟢 Megjelenítjük a Teszt Gombot, ha a kérdések betöltődtek
     finalTestBtn.style.display = 'block'; 
 
     let fejezetek = [...new Set(questions.map(q => q.fejezet_cim))];
@@ -68,15 +62,11 @@ function renderTemaList() {
     });
 }
 
-// 🟢 ÚJ FUNKCIÓ: Végső teszt indítása
+// Új FUNKCIÓ: Végső teszt indítása
 finalTestBtn.onclick = () => {
-    // 1. Kijelöljük a véletlenszerű 30 kérdést
     const finalTestQuestions = getRandomQuestions(questions, 30);
-    
-    // 2. Inicializáljuk a kvízt a kiválasztott kérdésekkel
     currentQuestions = finalTestQuestions;
     
-    // 3. Teszt indítása (logika megegyezik a selectTema-val, de fix címmel)
     mainTitle.textContent = "Test Final: 30 întrebări";
     correctCount = 0;
     totalAsked = 0;
@@ -103,7 +93,7 @@ function selectTema(fejezet) {
 }
 
 
-// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ (Változatlan, de a backBtn visszateszi a főcímet) ---
+// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ ---
 function showQuestionScreen() {
     temaListScreen.style.display = "none";
     questionScreen.style.display = "block";
@@ -117,7 +107,7 @@ backBtn.onclick = () => {
 }
 
 
-// --- KÉRDÉS BETÖLTÉSE (Változatlan) ---
+// --- KÉRDÉS BETÖLTÉSE ---
 function loadQuestion() {
     answered = false;
     nextBtn.disabled = true;
@@ -125,7 +115,10 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
-    questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
+    // 🟢 VÁLTOZÁS ITT: Progress számláló hozzáadása a kérdés elé
+    const progressText = `(${currentIndex + 1} / ${currentQuestions.length})`;
+    
+    questionDiv.textContent = `${progressText} ${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
         const btn = document.createElement("button");
