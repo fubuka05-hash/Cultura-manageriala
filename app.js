@@ -10,7 +10,7 @@ const mainTitle = document.querySelector('h1');
 const finalTestBtn = document.getElementById("finalTestBtn"); 
 const progressDiv = document.getElementById("progress"); 
 
-// 🟢 MODÁL ELEMEK
+// MODÁL ELEMEK
 const resultModal = document.getElementById("resultModal");
 const modalTitle = document.getElementById("modalTitle");
 const modalBody = document.getElementById("modalBody");
@@ -32,7 +32,8 @@ const originalTitle = "Cultura Managerială – Program de învățare";
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[i], array[j]];
+        // 🟢 JAVÍTVA: Helyes felcserélés (swap)
+        [array[i], array[j]] = [array[j], array[i]]; 
     }
 }
 
@@ -41,20 +42,20 @@ function getRandomQuestions(sourceArray, count) {
     return sourceArray.slice(0, count);
 }
 
-// 🟢 FUNKCIÓ: Modál megjelenítése (Eredmény)
+// FUNKCIÓ: Modál megjelenítése (Eredmény)
 function showResultModal() {
     modalTitle.textContent = "Felicitări!"; 
     modalBody.innerHTML = `
         Ai parcurs toate întrebările din acest capitol!<br>
         Ai răspuns corect la <strong>${correctCount}</strong> din <strong>${totalAsked}</strong> întrebări.
     `;
-    resultModal.style.display = 'flex'; // Modál megjelenítése középen
+    resultModal.style.display = 'flex'; 
 }
 
-// 🟢 FUNKCIÓ: Modál bezárása
+// FUNKCIÓ: Modál bezárása
 modalCloseBtn.onclick = () => {
-    resultModal.style.display = 'none'; // Modál elrejtése
-    backBtn.click(); // Vissza a fejezetekhez
+    resultModal.style.display = 'none'; 
+    backBtn.click(); 
 }
 
 
@@ -108,7 +109,7 @@ function selectTema(fejezet) {
     nextBtn.disabled = true; 
     
     currentQuestions = questions.filter(q => q.fejezet_cim === fejezet);
-    shuffleArray(currentQuestions);
+    shuffleArray(currentQuestions); // A shuffleArray itt is fut
     currentIndex = 0;
     showQuestionScreen();
     loadQuestion();
@@ -137,7 +138,7 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
-    // Számláló beállítása az új, esztétikus progressDiv elemben
+    // Számláló beállítása
     const progressText = `Întrebarea ${currentIndex + 1} din ${currentQuestions.length}`;
     progressDiv.textContent = progressText; 
     
@@ -188,7 +189,6 @@ function checkAnswer(button, index, correctIndex) {
 nextBtn.onclick = () => {
     currentIndex++;
     if (currentIndex >= currentQuestions.length) {
-        // Lecseréltük az alert()-et a custom modálra
         showResultModal();
         return;
     }
