@@ -6,9 +6,10 @@ const questionDiv = document.getElementById("question");
 const answersDiv = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const backBtn = document.getElementById("backBtn");
-
-// 🟢 ÚJ DOM ELEM A FŐ CÍM (H1) ELÉRÉSÉHEZ
 const mainTitle = document.querySelector('h1'); 
+
+// 🟢 ÚJ DOM ELEM A VÉGSŐ TESZT GOMBOZ
+const finalTestBtn = document.getElementById("finalTestBtn"); 
 
 let questions = []; 
 let currentQuestions = [];
@@ -18,7 +19,6 @@ let answered = false;
 let correctCount = 0;
 let totalAsked = 0;
 
-// Eredeti fő cím szövege, amit visszaállítunk
 const originalTitle = "Cultura Managerială – Program de învățare";
 
 
@@ -32,23 +32,34 @@ function shuffleArray(array) {
     }
 }
 
+// 🟢 FUNKCIÓ: Random kérdések kiválasztása
+function getRandomQuestions(sourceArray, count) {
+    // 1. Keverjük meg az eredeti tömböt (hogy a mintavétel valóban véletlenszerű legyen)
+    shuffleArray(sourceArray);
+    // 2. Vegyük az első 'count' elemet
+    return sourceArray.slice(0, count);
+}
+
+
 // --- TÉMÁK LISTÁZÁSA (Kezdőképernyő) ---
 function renderTemaList() {
-    // 🟢 1. Cél: Fő cím visszaállítása a főoldalon
     mainTitle.textContent = originalTitle;
-    
     temeDiv.innerHTML = "";
+    
     if (questions.length === 0) {
         temeDiv.textContent = "A kérdések betöltése sikertelen. Ellenőrizze a hálózati kapcsolatot vagy a JSON fájlt.";
+        // 🟢 Rejtjük a Teszt Gombot, ha az adatok sem töltődtek be
+        finalTestBtn.style.display = 'none'; 
         return;
     }
     
+    // 🟢 Megjelenítjük a Teszt Gombot, ha a kérdések betöltődtek
+    finalTestBtn.style.display = 'block'; 
+
     let fejezetek = [...new Set(questions.map(q => q.fejezet_cim))];
 
-    // 🟢 2. Cél: Fejezetek sorszámozása (1., 2., 3., ...)
     fejezetek.forEach((f, index) => {
         const btn = document.createElement("button");
-        // Hozzáadjuk a sorszámot a címhez
         btn.textContent = `${index + 1}. ${f}`; 
         
         btn.classList.add('tema-button');
@@ -57,15 +68,31 @@ function renderTemaList() {
     });
 }
 
+// 🟢 ÚJ FUNKCIÓ: Végső teszt indítása
+finalTestBtn.onclick = () => {
+    // 1. Kijelöljük a véletlenszerű 30 kérdést
+    const finalTestQuestions = getRandomQuestions(questions, 30);
+    
+    // 2. Inicializáljuk a kvízt a kiválasztott kérdésekkel
+    currentQuestions = finalTestQuestions;
+    
+    // 3. Teszt indítása (logika megegyezik a selectTema-val, de fix címmel)
+    mainTitle.textContent = "Test Final: 30 întrebări";
+    correctCount = 0;
+    totalAsked = 0;
+    nextBtn.disabled = true; 
+    currentIndex = 0;
+    showQuestionScreen();
+    loadQuestion();
+};
+
 
 // --- TÉMA KIVÁLASZTÁS ÉS INDÍTÁS ---
 function selectTema(fejezet) {
-    // 🟢 1. Cél: Fejezet címének beállítása a kvíz képernyőn
     mainTitle.textContent = fejezet;
     
     correctCount = 0;
     totalAsked = 0;
-    
     nextBtn.disabled = true; 
     
     currentQuestions = questions.filter(q => q.fejezet_cim === fejezet);
@@ -75,24 +102,22 @@ function selectTema(fejezet) {
     loadQuestion();
 }
 
-// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE ---
+
+// --- KÉRDÉS KÉPERNYŐ MEGJELENÍTÉSE és VISSZA A TÉMÁKHOZ (Változatlan, de a backBtn visszateszi a főcímet) ---
 function showQuestionScreen() {
     temaListScreen.style.display = "none";
     questionScreen.style.display = "block";
 }
 
-// --- VISSZA A TÉMÁKHOZ ---
 backBtn.onclick = () => {
     questionScreen.style.display = "none";
     temaListScreen.style.display = "block";
-    
-    // 🟢 1. Cél: Fő cím visszaállítása a főoldalon
     mainTitle.textContent = originalTitle; 
-    
     renderTemaList();
 }
 
-// --- KÉRDÉS BETÖLTÉSE ---
+
+// --- KÉRDÉS BETÖLTÉSE (Változatlan) ---
 function loadQuestion() {
     answered = false;
     nextBtn.disabled = true;
@@ -100,7 +125,6 @@ function loadQuestion() {
 
     const q = currentQuestions[currentIndex];
     
-    // A kérdés számozása most: "Kérdés ID. Kérdés szövege"
     questionDiv.textContent = `${q.id}. ${q.kerdes}`; 
 
     q.valaszok.forEach((answer, index) => {
